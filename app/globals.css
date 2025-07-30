@@ -2,26 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+  Global Fallback for initial paint and permanent dark theme.
+  Inter font is now declared globally here.
+*/
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+  /* Hardcoded global dark background and light text for base layer */
+  background-color: #000;
+  color: #fff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Inter font global declaration (since next/font is not managing it on <html> anymore) */
+html {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+/* Ensure body still gets light mode classes if 'dark' is removed from html,
+   though we expect 'dark' to always be there now. */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Set overall light mode background to off-white */
+  @apply bg-gray-50 text-gray-900 antialiased; /* ADJUSTED: bg-gray-50 (was bg-white) */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* When 'dark' class is present on <html>, Tailwind applies these */
+html.dark body {
+  @apply bg-gray-900 text-gray-100; /* Fallback for dark theme body */
+}
+
+
+/* You can add custom utility classes here if needed, or stick to Tailwind's */
+/* For example, for a main container that centers content */
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8; /* Tailwind classes for responsiveness and centering */
+}
+
+/* Remove default link underlines for a cleaner look */
+a {
+  text-decoration: none;
+}
+
+/* Custom Animations for Hero Section (subtle moving blobs) */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
   }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation: blob 7s infinite;
+  animation-delay: 4s;
+}
+
+/* Blinking Cursor Animation (used in Hero terminal if enabled) */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
+/* Custom CSS to make scrollbar invisible across browsers */
+
+/* For Webkit browsers (Chrome, Safari, newer Edge) */
+.overflow-y-auto::-webkit-scrollbar,
+.overflow-x-auto::-webkit-scrollbar {
+  width: 0px; /* Hide width of vertical scrollbar */
+  height: 0px; /* Hide height of horizontal scrollbar */
+  background: transparent; /* Make background transparent */
+}
+
+/* For Firefox */
+.overflow-y-auto,
+.overflow-x-auto {
+  scrollbar-width: none;  /* Hide scrollbar */
+}
+
+/* For IE and old Edge */
+.overflow-y-auto,
+.overflow-x-auto {
+  -ms-overflow-style: none; /* Hide scrollbar */
 }
