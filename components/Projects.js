@@ -21,7 +21,7 @@ const projectsData = [
     title: 'DISTRIBUTED ONLINE JUDGE',
     description: 'Built a scalable Online Judge with sub-second Python/Java code execution. Orchestrated a Docker-isolated judging pipeline across 3 services using Redis/RQ for IPC, enabling seamless deployment on 3 core GCP services. Reduced user wait times by 100% via WebSockets.',
     technologies: ['Python', 'Java', 'Docker', 'Redis', 'WebSockets', 'GCP', 'Distributed Systems'],
-    image: '/GitHub.png',
+    image: '/Online.png',
     demoLink: '#', // TODO: Add video demo or deployed link
     githubLink: 'https://github.com/OmprakashSahani/Online-Judge-Platform', // TODO: Update with real link
     type: 'SWE & Distributed Systems'
@@ -41,7 +41,7 @@ const projectsData = [
     title: 'CUSTOM SEARCH ENGINE (MINI GOOGLE SEARCH)',
     description: 'Implemented a Python-based search engine indexing 50+ documents with Inverted Index and TF-IDF ranking, achieving sub-second query latency (~0.5ms). Architected a robust, NLTK-powered, Dockerized pipeline with comprehensive testing.',
     technologies: ['Python', 'NLTK', 'Docker', 'Information Retrieval', 'Testing'],
-    image: '/project-search-engine.png',
+    image: '/Apple.png',
     demoLink: '#', // TODO: Add video demo
     githubLink: 'https://github.com/OmprakashSahani/Mini-Google-Search-Engine', // TODO: Update with real link
     type: 'SWE & NLP'
@@ -51,7 +51,7 @@ const projectsData = [
     title: 'HEALTHCARE ML INNOVATION (Research)',
     description: 'Applied 5+ machine learning models (Random Forest, CNN, SVM) to 4 healthcare datasets (3,400+ records) in Python. Reviewed 20+ studies to identify gaps in Clinical Decision Support Systems and evaluated diagnostic accuracy and risk prediction.',
     technologies: ['Python', 'Machine Learning', 'Random Forest', 'CNN', 'SVM', 'Healthcare Analytics'],
-    image: '/project-healthcare-ml.png',
+    image: '/GitHub.png',
     demoLink: '#', // TODO: Add link to paper/presentation
     githubLink: 'https://github.com/your-username/healthcare-ml-research', // TODO: Update with real link
     type: 'Research & ML'
@@ -61,7 +61,7 @@ const projectsData = [
     title: 'REAL-TIME WEATHER FORECASTING (Lead)',
     description: 'Spearheaded a team of 5 to build a Python-based weather application, including an enhanced GUI with 10% more features. Managed project lifecycle and ensured successful delivery.',
     technologies: ['Python', 'GUI Development', 'Team Leadership'],
-    image: '/project-weather-app.png',
+    image: '/Weather.png',
     demoLink: '#', // TODO: Add video demo
     githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
     type: 'Project Leadership'
