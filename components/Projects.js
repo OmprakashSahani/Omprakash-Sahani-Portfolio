@@ -12,8 +12,8 @@ const projectsData = [
     description: 'Developed an AI-powered Code Assistant using Google Gemini API, significantly reducing code generation time by 75% and boosting developer productivity. Engineered context management algorithms (90%+ accuracy). Deployed on GCP, ensuring API response times <500ms.',
     technologies: ['React Native', 'Flask', 'Google Gemini API', 'GCP', 'AI/ML', 'Python'],
     image: '/Gemini.png',
-    demoLink: '#', // TODO: Add link to Google Play Store if live, or video demo
-    githubLink: 'https://gemini-api-assistant-code.el.r.appspot.com/', // TODO: Update with real link
+    demoLink: 'https://gemini-api-assistant-code.el.r.appspot.com/', // TODO: Add link to Google Play Store if live, or video demo
+    githubLink: '#', // TODO: Update with real link
     type: 'SWE & AI/ML'
   },
   {
@@ -21,7 +21,7 @@ const projectsData = [
     title: 'DISTRIBUTED ONLINE JUDGE',
     description: 'Built a scalable Online Judge with sub-second Python/Java code execution. Orchestrated a Docker-isolated judging pipeline across 3 services using Redis/RQ for IPC, enabling seamless deployment on 3 core GCP services. Reduced user wait times by 100% via WebSockets.',
     technologies: ['Python', 'Java', 'Docker', 'Redis', 'WebSockets', 'GCP', 'Distributed Systems'],
-    image: '/project-online-judge.png',
+    image: '/GitHub.png',
     demoLink: '#', // TODO: Add video demo or deployed link
     githubLink: 'https://github.com/OmprakashSahani/Online-Judge-Platform', // TODO: Update with real link
     type: 'SWE & Distributed Systems'
