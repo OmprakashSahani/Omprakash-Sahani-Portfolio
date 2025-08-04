@@ -11,9 +11,9 @@ const projectsData = [
     title: 'GEMINI DEV ASSISTANT',
     description: 'Developed an AI-powered Code Assistant using Google Gemini API, significantly reducing code generation time by 75% and boosting developer productivity. Engineered context management algorithms (90%+ accuracy). Deployed on GCP, ensuring API response times <500ms.',
     technologies: ['React Native', 'Flask', 'Google Gemini API', 'GCP', 'AI/ML', 'Python'],
-    image: '/project-gemini-dev-assistant.jpg',
+    image: '/Gemini.png',
     demoLink: '#', // TODO: Add link to Google Play Store if live, or video demo
-    githubLink: 'https://github.com/your-username/gemini-dev-assistant', // TODO: Update with real link
+    githubLink: 'https://gemini-api-assistant-code.el.r.appspot.com/', // TODO: Update with real link
     type: 'SWE & AI/ML'
   },
   {
