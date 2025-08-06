@@ -66,6 +66,26 @@ const projectsData = [
     githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
     type: 'Project Leadership'
   },
+  {
+    id: 7,
+    title: 'AI-POWERED ENVIRONMENTAL INTELLIGENCE PLATFORM',
+    description: 'Architected and developed a full-stack application that transforms complex environmental data into actionable insights and engaging narratives. Integrated real-time and historical air quality data, enabling AI-driven analysis, creative content generation (social posts, detailed reports), and interactive data visualization. Implemented data persistence with PostgreSQL and ensured seamless frontend-backend communication.',
+    technologies: ['Python', 'Flask', 'PostgreSQL', 'Docker', 'React', 'Vite', 'Leaflet.js', 'Chart.js', 'OpenWeatherMap API', 'OpenAI API', 'RESTful APIs'],
+    image: '/Environmental.png',
+    demoLink: '#', // TODO: Add video demo
+    githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
+    type: 'Project Leadership'
+  },
+  {
+    id: 8,
+    title: 'AI-POWERED ROBOTIC ARM SIMULATOR',
+    description: 'Designed and implemented an intelligent robotic arm simulator capable of executing natural language commands in a 3D physics environment. Leveraged AI to translate high-level human instructions into precise robotic movements for pick-and-place and complex stacking tasks. Overcame significant challenges in inverse kinematics, grasping stability, and collision avoidance within the simulation, demonstrating robust control logic.',
+    technologies: ['Python', 'PyBullet', 'OpenAI API', 'Flask', 'React', 'Vite', 'Natural Language Processing (NLP)', 'Robotics Simulation', 'Inverse Kinematics'],
+    image: '/Robot.png',
+    demoLink: '#', // TODO: Add video demo
+    githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
+    type: 'Project Leadership'
+  },
   // Add your Freelance Software Developer experience here as a project if you wish, or keep it in About Me.
 ];
 
