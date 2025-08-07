@@ -86,6 +86,16 @@ const projectsData = [
     githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
     type: 'Project Leadership'
   },
+  {
+    id: 9,
+    title: 'AI-POWERED DRUG DISCOVERY PLATFORM (FULL-STACK)',
+    description: 'Architected and developed a full-stack application that leverages machine learning to predict the biological activity of new drug molecules. The platform features a user-friendly interface for molecular data input and visualization, a trained model for accurate predictions, and a robust backend that dynamically generates AI-powered explanations for a non-technical audience. It showcases skills in data science, AI integration, and full-stack web development.',
+    technologies: ['Python', 'OpenAI API', 'Flask', 'React', 'Vite', 'scikit-learn', 'rdkit', 'ChEMBL Database'],
+    image: '/aidrug.png',
+    demoLink: '#', // TODO: Add video demo
+    githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
+    type: 'Project Leadership'
+  },
   // Add your Freelance Software Developer experience here as a project if you wish, or keep it in About Me.
 ];
 
