@@ -51,7 +51,7 @@ const projectsData = [
     title: 'HEALTHCARE ML INNOVATION (Research)',
     description: 'Applied 5+ machine learning models (Random Forest, CNN, SVM) to 4 healthcare datasets (3,400+ records) in Python. Reviewed 20+ studies to identify gaps in Clinical Decision Support Systems and evaluated diagnostic accuracy and risk prediction.',
     technologies: ['Python', 'Machine Learning', 'Random Forest', 'CNN', 'SVM', 'Healthcare Analytics'],
-    image: '/GitHub.png',
+    image: '/health.png',
     demoLink: '#', // TODO: Add link to paper/presentation
     githubLink: 'https://github.com/your-username/healthcare-ml-research', // TODO: Update with real link
     type: 'Research & ML'
