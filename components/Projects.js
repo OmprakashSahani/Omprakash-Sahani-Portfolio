@@ -74,7 +74,7 @@ const projectsData = [
     image: '/Environmental.png',
     demoLink: '#', // TODO: Add video demo
     githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
-    type: 'Project Leadership'
+    type: 'SWE, Full Stack & AI/ML'
   },
   {
     id: 8,
@@ -84,7 +84,7 @@ const projectsData = [
     image: '/Robot.png',
     demoLink: '#', // TODO: Add video demo
     githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
-    type: 'Project Leadership'
+    type: 'SWE, Full Stack, Robotics & AI/ML'
   },
   {
     id: 9,
@@ -94,7 +94,67 @@ const projectsData = [
     image: '/aidrug.png',
     demoLink: '#', // TODO: Add video demo
     githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
-    type: 'Project Leadership'
+    type: 'SWE, Full Stack & AI/ML'
+  },
+  {
+    id: 10,
+    title: 'PREDICTING HEART DISEASE RISK USING MACHINE LEARNING MODEL',
+    description: 'Developed a predictive heart disease model utilizing Random Forest on a dataset of 1,026 records, achieving 99% accuracy and visualizing key feature importance, leading to earlier interventions for patients.',
+    technologies: ['Python', 'TensorFlow', 'Matplotlib', 'Jupyter Notebook', 'Pandas', 'scikit-learn', 'Kaggle Dataset'],
+    image: '/heart.png',
+    demoLink: 'https://omprakashsahani.github.io/Predicting-Heart-Disease-Risk-with-Machine-Learning-Models-in-Python/', // TODO: Add video demo
+    githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
+    type: 'Data Analysis & AI/ML'
+  },
+  {
+    id: 11,
+    title: 'MEDICAL IMAGE ANALYSIS FOR BRAIN TUMOR DETECTION USING CONVOLUTIONAL NEURAL NETWORK (CNN)',
+    description: 'Engineered a convolutional neural network (CNN) to categorize brain MRI images (253 images), obtained 90% accuracy with 30 images and 86% with 51, enabling quicker diagnosis and insight, showcasing strong self-motivation.',
+    technologies: ['Python', 'TensorFlow', 'Matplotlib', 'Jupyter Notebook', 'Pandas', 'scikit-learn', 'Kaggle Dataset', 'Keras'],
+    image: '/brain.png',
+    demoLink: 'https://omprakashsahani.github.io/Medical-Image-Analysis-for-Brain-Tumor-Detection-Using-Convolutional-Neural-Networks-CNN-in-Python/', // TODO: Add video demo
+    githubLink: 'https://omprakashsahani.github.io/Medical-Image-Analysis-for-Brain-Tumor-Detection-Using-Convolutional-Neural-Networks-CNN-in-Python51/', // TODO: Update with real link
+    type: 'Data Analysis & AI/ML'
+  },
+  {
+    id: 12,
+    title: 'DIABETES PREDICTION ANALYSIS USING MACHINE LEARNING APPROACH',
+    description: 'Devised a diabetes prediction model using the Pima Indians dataset (765 records, 9 features), showing SVM (80%) and Logistic Regression (79.13%) as most effective for early detection, highlighting analytical rigor.',
+    technologies: ['R', 'Shiny', 'ggplot2', 'caret', 'XGBoost','Kaggle Dataset'],
+    image: '/Diabetes.png',
+    demoLink: 'https://rpubs.com/Omprakash-Sahani/1264366', // TODO: Add video demo
+    githubLink: 'https://rpubs.com/Omprakash-Sahani/1264366', // TODO: Update with real link
+    type: 'Data Analysis & AI/ML'
+  },
+  {
+    id: 13,
+    title: 'MATHEMATICAL VISUALIZATIONS IN MATLAB',
+    description: 'Built 7+ interactive MATLAB visualizations, including 3D plots, vector fields, and fractals – to communicate complex mathematical ideas, with 7+ downloads on MATLAB Central, reflecting curiosity and knowledge sharing.',
+    technologies: ['MATLAB', 'MATLAB Graphics', 'Statistics and Machine Learning Toolbox'],
+    image: '/Maths.png',
+    demoLink: 'https://in.mathworks.com/matlabcentral/fileexchange/179044-mathematical-visualizations-in-matlab', // TODO: Add video demo
+    githubLink: 'https://in.mathworks.com/matlabcentral/fileexchange/179044-mathematical-visualizations-in-matlab', // TODO: Update with real link
+    type: 'Visualization & AI/ML'
+  },
+  {
+    id: 14,
+    title: 'HYBRIS TIME-SERIES FORECASTING OF ENERGY CONSUMPTION USING XGBOOST AND LSTM WITH WEATHER, TRMPORAL, AND HOLIDAY FEATURES',
+    description: 'Implemented a hybrid XGBoost-LSTM model for energy forecasting using the UCI dataset (370 time-series, 15-minute intervals), integrating weather, temporal, and holiday data to improve accuracy, reflecting initiative and real-world impact.',
+    technologies: ['Python', 'Jupyter Notebook', 'TensorFlow', 'XGBoost', 'ElectricityLoadDiagrams20112014 Dataset'],
+    image: '/Weatherp.png',
+    demoLink: '#', // TODO: Add video demo
+    githubLink: 'https://github.com/OmprakashSahani/Hybrid-Time-Series-Forecasting-of-Energy-Consumption', // TODO: Update with real link
+    type: 'Data Analysis & AI/ML'
+  },
+  {
+    id: 15,
+    title: 'PROBABILISTIC TIME SERIES FORECASTING USING QUANTILE REGRESSION AND DEEP LEARNING',
+    description: 'Leveraged LSTM-based regression model to forecast PM2.5 concentrations, generating probabilistic intervals that captured predictive uncertainty through 10th, 50th, and 90th percentile estimates, informing air quality insights for decision-making.',
+    technologies: ['Python', 'Jupyter Notebook', 'TensorFlow', 'XGBoost', 'Beijing PM2.5 Dataset'],
+    image: '/DL.png',
+    demoLink: '#', // TODO: Add video demo
+    githubLink: 'https://github.com/OmprakashSahani/Probabilistic-Time-Series-Forecasting', // TODO: Update with real link
+    type: 'Data Analysis & AI/ML'
   },
   // Add your Freelance Software Developer experience here as a project if you wish, or keep it in About Me.
 ];
