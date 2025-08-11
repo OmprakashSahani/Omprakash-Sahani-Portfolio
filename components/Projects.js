@@ -23,7 +23,7 @@ const projectsData = [
     technologies: ['Python', 'OpenAI API', 'Flask', 'React', 'Dev Tools-Vite ', 'GCP', 'CSS and Tailwind CSS'],
     image: '/ShellAI.png',
     demoLink: '#', // TODO: Add video demo or deployed link
-    githubLink: 'https://github.com/OmprakashSahani/Online-Judge-Platform', // TODO: Update with real link
+    githubLink: 'https://github.com/OmprakashSahani/ShellAI', // TODO: Update with real link
     type: 'SWE, Full-Stack web application & AI and human-computer interaction'
   },
   {
@@ -83,7 +83,7 @@ const projectsData = [
     technologies: ['Python', 'Flask', 'PostgreSQL', 'Docker', 'React', 'Vite', 'Leaflet.js', 'Chart.js', 'OpenWeatherMap API', 'OpenAI API', 'RESTful APIs'],
     image: '/Environmental.png',
     demoLink: '#', // TODO: Add video demo
-    githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
+    githubLink: 'https://github.com/OmprakashSahani/AI-Powered-Environmental-Intelligence-Platform', // TODO: Update with real link
     type: 'SWE, Full Stack & AI/ML'
   },
   {
@@ -93,7 +93,7 @@ const projectsData = [
     technologies: ['Python', 'PyBullet', 'OpenAI API', 'Flask', 'React', 'Vite', 'Natural Language Processing (NLP)', 'Robotics Simulation', 'Inverse Kinematics'],
     image: '/Robot.png',
     demoLink: '#', // TODO: Add video demo
-    githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
+    githubLink: 'https://github.com/OmprakashSahani/AI-Powered-Robotic-Arm-Simulator', // TODO: Update with real link
     type: 'SWE, Full Stack, Robotics & AI/ML'
   },
   {
@@ -103,7 +103,7 @@ const projectsData = [
     technologies: ['Python', 'OpenAI API', 'Flask', 'React', 'Vite', 'scikit-learn', 'rdkit', 'ChEMBL Database'],
     image: '/aidrug.png',
     demoLink: '#', // TODO: Add video demo
-    githubLink: 'https://github.com/your-username/weather-forecasting-app', // TODO: Update with real link
+    githubLink: 'https://github.com/OmprakashSahani/AI-Powered-Drug-Discovery-Platform', // TODO: Update with real link
     type: 'SWE, Full Stack & AI/ML'
   },
   {
